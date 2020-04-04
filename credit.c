@@ -103,7 +103,7 @@ int card_type(long card_num, int digit_total)
         {
             return 2; //2 = MASTERCARD
         }
-        else if (((first == 3) && (second == 4)) || ((first == 3) && (second = 7)))
+        else if (((first == 3) && (second == 4)) || ((first == 3) && (second == 7)))
         {
             return 3; // 3 = AMEX
         }
